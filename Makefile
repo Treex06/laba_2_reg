@@ -3,7 +3,7 @@ CFLAGS = -Wall -Wextra -g -std=c99
 SRC_DIR = src
 INCLUDE_DIR = include
 BUILD_DIR = build
-TARGET = sed_simplified
+TARGET = laba_2_reg
 OBJECTS = $(BUILD_DIR)/main.o $(BUILD_DIR)/sed_operations.o
 
 $(BUILD_DIR)/%.o: $(SRC_DIR)/%.c
